@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body ng-app="todolistApp">
+    <h1>Add Task</h1>
+    <div ng-controller="loginBegin">
+        <section ng-controller="displayController">
+            Title:
+            <input type="text" id="Title">
+            <br>
+            <br>
+            Description:
+            <input type="text" id="Description">
+            <br>
+            <input type="button" id="submit" ng-click="addData()" value="Submit">
+        </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.5/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.5/angular-route.js"></script>
+    <script src="todolist.js"></script>
+    <script src="Services/ajaxService.js"></script>
+</body>
+
+</html>

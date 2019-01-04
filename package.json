@@ -1,0 +1,11 @@
+{
+  "name": "deploy1",
+  "version": "1.0.0",
+  "description": "deploying todolist",
+  "main": "todolist.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jardain",
+  "license": "ISC"
+}

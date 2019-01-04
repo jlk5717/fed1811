@@ -1,0 +1,34 @@
+{
+    "employees": {
+        "Jardain": {
+            "username": "jlk5717",
+            "position": "Front-End Developer",
+            "experience": "Under 1 year",
+            "access": "user"
+        },
+        "Jacob":{
+            "username": "jal3124",
+            "position": "Front-End Developer",
+            "experience": "Under 1 year",
+            "access": "user"
+        },
+        "Josh":{
+            "username": "jol2315",
+            "position": "Senior Front-End Developer",
+            "experience": "4 years",
+            "access": "admin"
+        },
+        "Brandon":{
+            "username": "blu1293",
+            "position": "Front-End Developer",
+            "experience": "2 years",
+            "access": "user"
+        },
+        "Britany":{
+            "username": "bar0928",
+            "position": "Front-End Developer",
+            "experience": "1 year",
+            "access": "user"
+        }
+    }
+}
